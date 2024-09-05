@@ -1,0 +1,60 @@
+<form id="vehicleRegistrationForm">
+  <h3>Section I: To be filled in by the office</h3>
+  <label for="regnNo">Regn No:</label><br>
+  <input type="text" id="regnNo" name="regnNo"><br><br>
+
+  <label for="issueNo">Issue No:</label><br>
+  <input type="text" id="issueNo" name="issueNo"><br><br>
+
+  <label for="diaryNo">Diary No:</label><br>
+  <input type="text" id="diaryNo" name="diaryNo"><br><br>
+
+  <label for="customerId">Customer ID:</label><br>
+  <input type="text" id="customerId" name="customerId"><br><br>
+
+  <label for="vehicleDescription">Vehicle Description:</label><br>
+  <input type="text" id="vehicleDescription" name="vehicleDescription"><br><br>
+
+  <label for="remarks">Remarks:</label><br>
+  <input type="text" id="remarks" name="remarks"><br><br>
+
+  <h3>Section II: Owner Information</h3>
+  <label for="ownerName">Name of owner:</label><br>
+  <input type="text" id="ownerName" name="ownerName"><br><br>
+
+  <label for="dateOfBirth">Date of birth:</label><br>
+  <input type="date" id="dateOfBirth" name="dateOfBirth"><br><br>
+
+  <label for="fatherName">Father/Husband Name:</label><br>
+  <input type="text" id="fatherName" name="fatherName"><br><br>
+
+  <label for="nationality">Nationality:</label><br>
+  <input type="text" id="nationality" name="nationality"><br><br>
+
+  <label for="sex">Sex:</label><br>
+  <select id="sex" name="sex">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select><br><br>
+
+  <label for="address">Owner’s Address:</label><br>
+  <input type="text" id="address" name="address"><br><br>
+
+  <label for="phoneNo">Phone No:</label><br>
+  <input type="text" id="phoneNo" name="phoneNo"><br><br>
+
+  <h3>Section III: Vehicle Information</h3>
+  <label for="vehicleType">Vehicle Type:</label><br>
+  <input type="text" id="vehicleType" name="vehicleType"><br><br>
+
+  <label for="classOfVehicle">Class of Vehicle:</label><br>
+  <input type="text" id="classOfVehicle" name="classOfVehicle"><br><br>
+
+  <label for="makerName">Maker’s Name:</label><br>
+  <input type="text" id="makerName" name="makerName"><br><br>
+
+  <label for="yearOfManufacture">Year of Manufacture:</label><br>
+  <input type="text" id="yearOfManufacture" name="yearOfManufacture"><br><br>
+
+  <button type="submit">Submit</button>
+</form>
